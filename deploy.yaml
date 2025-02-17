@@ -17,8 +17,8 @@ spec:
         image: milkygalaxy/frontend:latest
         imagePullPolicy: Always
         env:
-        - name: NEXT_PUBLIC_API_URL
-          value: https://demo.ksiddhiapphub.org/api
+        - name: API_URL
+          value: https://demo.ksiddhiapphub.org
         ports:
         - containerPort: 3000
         resources:
